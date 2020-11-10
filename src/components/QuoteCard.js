@@ -19,8 +19,8 @@ const QuoteCard = (props) =>
             Upvote
           </button>
           <button
-             // onClick=(e) => props.downvoteQuote(props.quote.id)
-              onClick={e => console.log(props.downvoteQuote, props.quote.id)}
+              onClick={(e) => props.downvoteQuote(props.quote.id)}le
+            //  onClick={e => console.log(props.downvoteQuote, props.quote.id)}
             
             type="button"
             className="btn btn-secondary"
