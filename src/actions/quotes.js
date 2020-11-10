@@ -1,12 +1,17 @@
 // TODO: Create action creators as defined in tests
 
+// import quotes from "../reducers/quotes"
+
+
+
 export const addQuote = (quote) => {
     console.log("addQuote action:", quote)
-    return{
+    return { 
         type: 'ADD_QUOTE',
-        quote:  Object.assign({}, quote, {votes: 0})
+        quote: {...quote, votes: 0}  
+       } 
     }
-}
+
 
 export const removeQuote = (quoteId) => {
     return {

@@ -26,10 +26,10 @@ class QuoteForm extends Component {
     const quote = {
       ...this.state,
       id: uuid()
-
+    
     }
-    console.log(quote)
-    console.log(addQuote(quote))
+    // console.log(quote)
+    // console.log(addQuote(quote))
     this.props.addQuote(quote)
     this.setState({
       author: "",

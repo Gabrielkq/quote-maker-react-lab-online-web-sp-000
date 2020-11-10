@@ -8,6 +8,7 @@ class App extends Component {
       <div className="container-fluid">
         <div className="row title justify-content-center" style={{ paddingTop: '12px' }}>
           <h1>Quote Maker</h1>
+          {/* <button onClick={() => console.log(this.props.store)}>the store</button> */}
         </div>
         <hr />
         <QuoteForm />
